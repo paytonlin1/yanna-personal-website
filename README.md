@@ -9,25 +9,25 @@
 
 #### HTML:
 
-##### - Pages:
+##### Pages:
 
-###### - Home
+###### Home
 
 - This is the main page of the website and acts as the main hub for navigation. It contains an art display that is sorted by most recent work and a navigation panel accessible via the dropdown burger.
 
-###### - About Me
+###### About Me
 
 - A descriptive page talking about who the artist is.
 
-###### - Artist Statement
+###### Artist Statement
 
 - A informational page that describes the work itself and the concepts/style/mediums of the artist.
 
-###### - Portfolio
+###### Portfolio
 
 - A page that displays all of the artist's work and contains filters that allow users to sort by medium.
 
-###### - Contact
+###### Contact
 
 - An informational page that contains links to the artist's social media pages and allows for users to directly email the artist via the input boxes.
 
