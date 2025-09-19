@@ -2,6 +2,9 @@ DESCRIPTION:
 - This is a portfolio website for my girlfriend.
 - It is meant to be a place for her to display all her art, contact info, and social media in one place that is easily accessible for others.
 
+DESIGN:
+- The design and format of the page was made in collaboration with my girlfriend through [Figma](https://www.figma.com/design/zkz2YaGTcT1WVKXRBzkVGV/YannaWeb?node-id=0-1&t=eam3Tr45LHC2kKJz-1)
+
 HTML:
 - Pages:
     - Home
