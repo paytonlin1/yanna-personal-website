@@ -3,6 +3,7 @@
   <head>
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="source.js"></script>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
@@ -10,17 +11,29 @@
     />
   </head>
   <body>
-    <header>
+    <div class="overlay">
+      <svg height="50" width="300" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="10" x2="250" y2="10" style="stroke:red;stroke-width:12" />
+      </svg>
+      <a id='burger' href="/images/burger.svg"></a>
       <nav class="burger-overlay">
-        <a id='burger' href="/images/burger.svg">
-        <a href="portfolio.html" class="top-nav">PORTFOLIO</a>
-        <a href="about.html" class="top-nav">ABOUT ME</a>
-        <a href="artiststatement.html" class="top-nav">ARTIST STATEMENT</a>
-        <a href="socials.html" class="top-nav">CONTACT</a>
+        <ul>
+          <li>
+            <a href="portfolio.html" class="top-nav">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="aboutme.html" class="top-nav">ABOUT ME</a>
+          </li>
+          <li>
+            <a href="artiststatement.html" class="top-nav">ARTIST STATEMENT</a>
+          </li>
+          <li>
+            <a href="contact.html" class="top-nav">CONTACT</a>
+          </li>
+        </ul>
       </nav>
-    </header>
+    </div>
     <main id="name-pfp">
-      <img id='hero-profile-picture' src="pfp">
       <h1 id="hero-name">ARIANNA CARPIO</h1>
     </main>
     <section class="art-by-recent">

@@ -1,18 +1,50 @@
-.burger-overlay a{
-    color: black;
-    padding: 14px 16px;
+.burger-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+    
+.burger-overlay .top-nav{
     text-decoration: none;
-    font-size: 17px;
-    display: block;
+    font-size: 30px;
+    color: white;
+}
+
+.burger-overlay ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.burger-overlay li {
+    position: relative;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0 4em 0 4em;
 }
 
 .burger-overlay #burger {
-    background: black;
-    display: block;
     position: absolute;
     right: 0;
     top: 0;
 }
+
+#burger {
+    float: right;
+}
 /* .burger-overlay .top-nav {
     display: none;
 } */
+ body{
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}

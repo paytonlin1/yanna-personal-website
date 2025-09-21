@@ -3,6 +3,7 @@
   <head>
     <title>Coursework</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="source.js"></script>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0"
@@ -10,16 +11,25 @@
     />
   </head>
   <body>
-    <header>
-      <img id="profile-picture" src='pfp'>
+    <div class="overlay">
+      <a id='burger' href="/images/burger.svg"></a>
       <nav class="burger-overlay">
-        <a id='burger' href="/images/burger.svg">
-        <a href="portfolio.html" class="top-nav">PORTFOLIO</a>
-        <a href="aboutme.html" class="top-nav">ABOUT ME</a>
-        <a href="artiststatement.html" class="top-nav">ARTIST STATEMENT</a>
-        <a href="contact.html" class="top-nav">CONTACT</a>
+        <ul>
+          <li>
+            <a href="portfolio.html" class="top-nav">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="aboutme.html" class="top-nav">ABOUT ME</a>
+          </li>
+          <li>
+            <a href="artiststatement.html" class="top-nav">ARTIST STATEMENT</a>
+          </li>
+          <li>
+            <a href="contact.html" class="top-nav">CONTACT</a>
+          </li>
+        </ul>
       </nav>
-    </header>
+    </div>
     <section id="socials">
       <img class="social-icon" src="linkedin">
       <img class="social-icon" src="twitter">
@@ -27,6 +37,9 @@
       <img class="social-icon" src="kofi">
     </section>
     <main class="gen-text">
+      <a href="home.html">
+        <img id='profile-picture' src="pfp">
+      </a>
       <h1 class="title">GET IN TOUCH</h1>
       <p class="body-text">Lorem ipsum</p>
     </main>
