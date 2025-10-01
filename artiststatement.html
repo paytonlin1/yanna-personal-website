@@ -11,9 +11,13 @@
     />
   </head>
   <body>
-    <div class="overlay">
-      <a id='burger' href="/images/burger.svg"></a>
-      <nav class="burger-overlay">
+    <div id="nav-container">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav id="nav">
         <ul>
           <li>
             <a href="portfolio.html" class="top-nav">PORTFOLIO</a>
@@ -29,6 +33,7 @@
           </li>
         </ul>
       </nav>
+      <div id="overlay"></div>
     </div>
     <main class="gen-text">
       <a href="home.html">
