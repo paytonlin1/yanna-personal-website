@@ -11,52 +11,72 @@
     />
   </head>
   <body>
-    <div id="nav-container">
-      <div id="menu-bar" onclick="menuOnClick()">
-        <div id="bar1" class="bar"></div>
-        <div id="bar2" class="bar"></div>
-        <div id="bar3" class="bar"></div>
+      <div id="nav-container">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li>
+              <a href="portfolio.html" class="top-nav">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="aboutme.html" class="top-nav">ABOUT ME</a>
+            </li>
+            <li>
+              <a href="artiststatement.html" class="top-nav">ARTIST STATEMENT</a>
+            </li>
+            <li>
+              <a href="contact.html" class="top-nav">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="overlay"></div>
       </div>
-      <nav id="nav">
-        <ul>
-          <li>
-            <a href="portfolio.html" class="top-nav">PORTFOLIO</a>
-          </li>
-          <li>
-            <a href="aboutme.html" class="top-nav">ABOUT ME</a>
-          </li>
-          <li>
-            <a href="artiststatement.html" class="top-nav">ARTIST STATEMENT</a>
-          </li>
-          <li>
-            <a href="contact.html" class="top-nav">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-      <div id="overlay"></div>
-    </div>
     <header>
-      <a href="home.html">
-          <img id='profile-picture' src="pfp">
-      </a>
-      <h3>PORTFOLIO</h3>
-    </header>
-    <nav>
-      <button class="filter">ALL</button>
-      <button class="filter">DIGITAL</button>
-      <button class="filter">PAINTING</button>
-      <button class="filter">ANALOG</button>
-      <button class="filter">SKETCHBOOK</button>
-      <button class="filter">PHOTO</button>
-      <button class="filter">ARCHITECTURE DESIGN</button>
-    </nav>
-    <main>
-      
-      <div class="display-row">
-        <img class="showcase" src="art">
-        <img class="showcase" src="art">
-        <img class="showcase" src="art">
+      <div class="img-container">
+        <a href="home.html"><img id='profile-picture' src="images/yannapfp.png"></a>
       </div>
+      <h1>PORTFOLIO</h1>
+    </header>
+    <nav class="filters">
+          <button type="button" class="filter" onclick="filterImages('ALL')">ALL</button>
+          <button type="button" class="filter" onclick="filterImages('filter_digital')">DIGITAL</button>
+          <button type="button" class="filter" onclick="filterImages('filter_painting')">PAINTING</button>
+          <button type="button" class="filter" onclick="filterImages('filter_analog')">ANALOG</button>
+          <button type="button" class="filter" onclick="filterImages('filter_sketchbook')">SKETCHBOOK</button>
+          <button type="button" class="filter" onclick="filterImages('filter_photo')">PHOTO</button>
+          <button type="button" class="filter" onclick="filterImages('filter_archdesign')">ARCHITECTURE DESIGN</button>
+    </nav>
+    <main class="showcase-container">
+      <table class="showcase-table">
+          <tr>
+            <td class="table-img">
+              <img class="filter_digital" src="images/placeholder.jpg" />
+            </td>
+            <td class="table-img">
+              <img class="filter_painting" src="images/placeholder.jpg" />
+            </td>
+            <td class="table-img">
+              <img class="filter_analog" src="images/placeholder.jpg" />
+            </td>
+          </tr>
+      </table>
+      <table class="showcase-table">
+          <tr>
+            <td class="table-img">
+              <img class="filter_sketchbook" src="images/placeholder.jpg" />
+            </td>
+            <td class="table-img">
+              <img class="filter_photo" src="images/placeholder.jpg" />
+            </td>
+            <td class="table-img">
+              <img class="filter_archdesign" src="images/placeholder.jpg" />
+            </td>
+          </tr>
+      </table>
     </main>
   </body>
 </html>
