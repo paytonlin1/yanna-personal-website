@@ -195,7 +195,6 @@ img {
     display: flex;
     justify-content: center;
     padding-top: 5em;
-    pointer-events: auto;
 }
 
 /*About Me and Artist Statement*/
